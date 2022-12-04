@@ -571,3 +571,17 @@ footer h5{
     color:#1E1E1E;
 }
 
+@media only screen and (max-width:600px) {
+    #first-picture{
+        display:none;
+    }
+    #second-picture{
+        display: none;
+    }
+    #media-length{
+        display: none;
+    }
+    #cat{
+        display:none;
+    }
+}
