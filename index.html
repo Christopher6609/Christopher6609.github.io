@@ -9,9 +9,9 @@
 
     </head>
     <body class="container">
-        <!-- <nav class="navbar navbar-expand-sm navbar-light" style="margin-bottom: 50px;">
+         <nav class="navbar navbar-expand-sm navbar-light" style="margin-bottom: 50px;">
             <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="navbar-brand" id="logo">
                     <h3>Podcast</h3>
                 </div>
@@ -36,28 +36,30 @@
                     </ul>
                 </div>
             </div>   
-            <div class="col-sm-3">
+            
+            </div>
+            <div class="col-sm-3"style="text-align:center;">
                 <button id="login">Log in</button>
                 <button id="signup">Sign up</button>
             </div>
-            </div>
-        </nav> -->
-        <div class="row" style="margin-bottom:50px;">
+            
+        </nav> 
+        <!-- <div class="row" style="margin-bottom:50px;">
             <nav class="navbar">
                 <div class="col-sm-3 navbar-brand" id="logo">
                     <h3>Podcast</h3>
                 </div>
                <button class="navbar-toggler" 
                type="button" data-bs-toggle="collapse" 
-               data-bs-target="#navigation" 
+               data-bs-target="#navigation"     
                aria-controls="navbarNav" 
                aria-expanded="false" 
                aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-
-                <div class="col-sm-6">
-                    <ul class="navbar nav" id="navigation">
+                  <div class="col-sm-6">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" id="navigation">
                         <li class="nav-item"><a href="#">Home</a></li>
                         <li class="nav-item"><a href="#">Episodes</a></li>
                         <li class="nav-item"><a href="#">Features</a></li>
@@ -65,12 +67,13 @@
                         <li class="nav-item"><a href="#">Categories</a></li>
                     </ul>
                 </div>
+                </div>
                 <div class="col-sm-3">
                         <button id="login">Log in</button>
                         <button id="signup">Sign up</button>
                 </div>
             </nav>
-        </div>
+        </div> -->
         <section>
             <div class="row">
                 <div class="col-sm-6" id="info">
@@ -178,7 +181,7 @@
                 </div>
             </div>
             
-            <div class="row g-2 gy-2">
+            <div class="row g-2 gy-2" id="cat">
                 <div class="col-sm-3" id="category-container">
                     <div class="row" id="category">
                         <div class="col-sm-5" style="margin:auto;">
@@ -502,5 +505,11 @@
         <footer style="text-align:center;">
             &copy; Christopher
         </footer>
+
+
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>
 </html>
