@@ -97,7 +97,7 @@ export default function Landing() {
           />
         </div>
       </div>
-      <section className="flex justify-between md:min-h-[40rem] md:w-full px-[1.5rem] py-[1.5rem]">
+      <section className="flex justify-between md:min-h-[40rem] md:w-full py-[1.5rem]">
         <div className="md:w-[40.125rem]">
           {" "}
           <div className="w-full text-center md:text-left md:w-full py-[3rem] md:py-[5.438rem] ">
